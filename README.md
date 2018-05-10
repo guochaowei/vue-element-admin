@@ -7,19 +7,21 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖包
 npm install
 
-# serve with hot reload at localhost:8080
+#不要用 cnpm  可以用 npm install --registry=https://registry.npm.taobao.org 代替
+
+# 开发模式 ,可以打开 localhost:8080 调试
 npm run dev
 
-# build for production with minification
+# 发布模式 , 压缩代码
 npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
 
-# run unit tests
+# 单元测试 , 不太懂
 npm run unit
 
 # run e2e tests
@@ -27,5 +29,3 @@ npm run e2e
 
 # run all tests
 npm test
-
-
